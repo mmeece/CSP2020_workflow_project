@@ -28,9 +28,11 @@ You can also embed plots, for example:
 zooAnimals <- read.csv("zooAnimal_medianLifeExpectancy_Jul2018 .csv", header = TRUE)
 skim(zooAnimals)
 hist(zooAnimals$Male.MLE, main ="Life Expectancies of Male Animals")
-
+hist(zooAnimals$Male.MLE, main ="Life Expectancies of FeMale Animals")
 boxplot(zooAnimals$Male.MLE)
 boxplot(zooAnimals$Female.MLE)
+
+
 
 ```
 
